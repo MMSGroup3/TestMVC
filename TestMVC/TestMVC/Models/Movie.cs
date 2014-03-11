@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Data.Entity;
-
+// Testing a change to code.
 namespace TestMVC.Models
 {
     public class Movie
