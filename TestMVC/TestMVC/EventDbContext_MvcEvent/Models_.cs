@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity;
 using TestMVC.Models;
 
-namespace TestMVC.MovieDBContext__MvcMovie
+namespace TestMVC.EventDBContext__MvcEvent
 {
     public class Models_ : DbContext
     {
@@ -18,8 +18,6 @@ namespace TestMVC.MovieDBContext__MvcMovie
         {
         }
 
-        public DbSet<Movie> Movies { get; set; }
-        public DbSet<Event> Event { get; set; }
-        public DbSet<Customer> Customer { get; set; }
+        public DbSet<Event> Events { get; set; }
     }
 }

@@ -184,17 +184,23 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CustomerController.cs" />
+    <Compile Include="Controllers\EventController.cs" />
     <Compile Include="Controllers\HelloWorldController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MovieController.cs" />
+    <Compile Include="CustomerDbContext_MvcCustomer\Models_.cs" />
     <Compile Include="C__MigrationHistory.cs">
       <DependentUpon>MovidesDM.tt</DependentUpon>
     </Compile>
+    <Compile Include="EventDbContext_MvcEvent\Models_.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Event.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="MovidesDM.Context.cs">
       <AutoGen>True</AutoGen>
