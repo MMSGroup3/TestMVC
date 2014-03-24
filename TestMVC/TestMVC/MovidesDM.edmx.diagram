@@ -13,6 +13,8 @@
         <EntityTypeShape EntityType="masterModel.spt_fallback_usg" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
         <EntityTypeShape EntityType="masterModel.spt_monitor" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="masterModel.spt_values" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.Event" Width="1.5" PointX="9.125" PointY="1.25" />
+        <EntityTypeShape EntityType="masterModel.Customer" Width="1.5" PointX="10.75" PointY="1.25" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

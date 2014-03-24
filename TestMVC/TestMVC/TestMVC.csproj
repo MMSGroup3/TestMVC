@@ -189,8 +189,14 @@
     <Compile Include="Controllers\HelloWorldController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MovieController.cs" />
+    <Compile Include="Customer.cs">
+      <DependentUpon>MovidesDM.tt</DependentUpon>
+    </Compile>
     <Compile Include="CustomerDbContext_MvcCustomer\Models_.cs" />
     <Compile Include="C__MigrationHistory.cs">
+      <DependentUpon>MovidesDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Event.cs">
       <DependentUpon>MovidesDM.tt</DependentUpon>
     </Compile>
     <Compile Include="EventDbContext_MvcEvent\Models_.cs" />

@@ -19,7 +19,5 @@ namespace TestMVC.MovieDBContext__MvcMovie
         }
 
         public DbSet<Movie> Movies { get; set; }
-        public DbSet<Event> Event { get; set; }
-        public DbSet<Customer> Customer { get; set; }
     }
 }

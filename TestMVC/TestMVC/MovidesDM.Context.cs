@@ -36,6 +36,8 @@ namespace TestMVC
         public DbSet<spt_fallback_usg> spt_fallback_usg { get; set; }
         public DbSet<spt_monitor> spt_monitor { get; set; }
         public DbSet<spt_values> spt_values { get; set; }
+        public DbSet<Event> Events { get; set; }
+        public DbSet<Customer> Customers { get; set; }
     
         public virtual int sp_MScleanupmergepublisher()
         {

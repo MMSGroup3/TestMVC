@@ -388,7 +388,29 @@ FROM [dbo].[spt_values] AS [spt_values]</DefiningQuery>
           <EntitySet Name="spt_values" EntityType="Self.spt_values" />
           <FunctionImport Name="sp_MScleanupmergepublisher" />
           <FunctionImport Name="sp_MSrepl_startup" />
+          <EntitySet Name="Events" EntityType="masterModel.Event" />
+          <EntitySet Name="Customers" EntityType="masterModel.Customer" />
         </EntityContainer>
+        <EntityType Name="Event">
+          <Key>
+            <PropertyRef Name="Name" />
+          </Key>
+          <Property Type="String" Name="Name" Nullable="false" annotation:StoreGeneratedPattern="None" />
+          <Property Type="String" Name="Description" Nullable="false" />
+          <Property Type="DateTime" Name="Date" Nullable="false" />
+          <Property Type="String" Name="Host" Nullable="false" />
+          <Property Type="String" Name="Tags" Nullable="false" />
+          <Property Type="String" Name="Related" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Customer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="None" />
+          <Property Type="String" Name="Name" Nullable="false" />
+          <Property Type="String" Name="Email" Nullable="false" />
+          <Property Type="String" Name="Interests" Nullable="false" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
